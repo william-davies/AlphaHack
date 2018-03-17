@@ -55,3 +55,4 @@ while video_capture.isOpened():
     sliced = []
     for image in coll:
         sliced.append(image[(top-bottom)/1.875:right:(top-bottom)/2.143:left])
+hello

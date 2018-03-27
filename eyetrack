@@ -104,3 +104,6 @@ while(cap.isOpened()):
 # close the windows
 cap.release()
 cv2.destroyAllWindows()
+
+#See how much the eye moves by comparing x,y co-ordinates between frames
+#More eye movement is bad because candidate is not looking at web cam and is distracted
